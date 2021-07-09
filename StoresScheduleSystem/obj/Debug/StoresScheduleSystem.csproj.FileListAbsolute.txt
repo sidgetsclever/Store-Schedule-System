@@ -1,0 +1,7 @@
+C:\Users\Kousik Sen\source\repos\StoresScheduleSystem\StoresScheduleSystem\bin\Debug\StoresScheduleSystem.exe.config
+C:\Users\Kousik Sen\source\repos\StoresScheduleSystem\StoresScheduleSystem\bin\Debug\StoresScheduleSystem.exe
+C:\Users\Kousik Sen\source\repos\StoresScheduleSystem\StoresScheduleSystem\bin\Debug\StoresScheduleSystem.pdb
+C:\Users\Kousik Sen\source\repos\StoresScheduleSystem\StoresScheduleSystem\obj\Debug\StoresScheduleSystem.csproj.AssemblyReference.cache
+C:\Users\Kousik Sen\source\repos\StoresScheduleSystem\StoresScheduleSystem\obj\Debug\StoresScheduleSystem.csproj.CoreCompileInputs.cache
+C:\Users\Kousik Sen\source\repos\StoresScheduleSystem\StoresScheduleSystem\obj\Debug\StoresScheduleSystem.exe
+C:\Users\Kousik Sen\source\repos\StoresScheduleSystem\StoresScheduleSystem\obj\Debug\StoresScheduleSystem.pdb
