@@ -29,8 +29,7 @@ namespace StoresScheduleSystem
         {
             // Donot change method signature
             // Implement code here
-           
-            Console.WriteLine("Close in b: " + this.isEssentialItemsStore);
+          
             if (this.isEssentialItemsStore)
             {
                 return "08:00 PM";

@@ -38,11 +38,6 @@ namespace StoresScheduleSystem
         public Store GetStoreById(int storeId)
         {
             Store Store = new Store();
-
-          
-
-            // Donot change method signature
-            // Implement code here
             DataTable dt = StoresScheduleDAO.FindStore(storeId);
             if(dt!=null && dt.Rows.Count>0)
             {
