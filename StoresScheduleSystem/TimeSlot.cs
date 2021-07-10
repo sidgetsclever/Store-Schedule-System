@@ -8,40 +8,24 @@ namespace StoresScheduleSystem
 {
     class TimeSlot
     {
+        protected bool isEssentialItemsStore;
+       
         public void SetIsEssentialItemsStore(bool isEssentialItemsStore)
         {
-            // Donot change method signature
-            // Implement code here
 
-            //isEssentialItemsStore = true;
-            //Store store = new Store();
-            // if(store.SellsEssentials==isEssentialItemsStore)
+           this.isEssentialItemsStore = isEssentialItemsStore;
+
         }
-        public virtual string GetOpeningTime(bool isEssentials)
+        public virtual string GetOpeningTime()
         {
-            // Donot change method signature
-            // Implement code here
-            if (isEssentials)
-            {
+
                 return "08:00 AM";
-            }
-            else
-            {
-                return "10:00 AM";
-            }
+
         }
-        public virtual string GetClosingTime(bool isEssentials)
+        public virtual string GetClosingTime()
         {
-            // Donot change method signature
-            // Implement code here
-            if (isEssentials)
-            {
+
                 return "02:00 PM";
-            }
-            else
-            {
-                return "2:00 PM";
-            }
         }
     }
 }

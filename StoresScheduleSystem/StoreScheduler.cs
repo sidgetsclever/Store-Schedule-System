@@ -39,6 +39,7 @@ namespace StoresScheduleSystem
         {
             Store Store = new Store();
 
+          
 
             // Donot change method signature
             // Implement code here
@@ -55,7 +56,7 @@ namespace StoresScheduleSystem
                 Store.ClosingTime = dt.Rows[0]["ClosingTime"].ToString();
 
             }
-
+          
 
             return Store;
         }
@@ -65,18 +66,21 @@ namespace StoresScheduleSystem
             bool IsUpdated = false;
             // Donot change method signature
             // Implement code here
-
+            
+            
             TimeSlotA timeSlotA = new TimeSlotA();
             TimeSlotB timeSlotB = new TimeSlotB();
             if (timeSlot == "timeSlotA" || timeSlot=="TimeSlotA")
             {
-                store.OpeningTime = timeSlotA.GetOpeningTime(store.SellsEssentials);
-                store.ClosingTime = timeSlotA.GetClosingTime(store.SellsEssentials);
+                timeSlotA.SetIsEssentialItemsStore(Convert.ToBoolean(store.SellsEssentials));
+                store.OpeningTime = timeSlotA.GetOpeningTime();
+                store.ClosingTime = timeSlotA.GetClosingTime();
             }
             else if(timeSlot == "timeSlotB" || timeSlot == "TimeSlotB")
             {
-                store.OpeningTime = timeSlotB.GetOpeningTime(store.SellsEssentials);
-                store.ClosingTime = timeSlotB.GetClosingTime(store.SellsEssentials);
+                timeSlotB.SetIsEssentialItemsStore(Convert.ToBoolean(store.SellsEssentials));
+                store.OpeningTime = timeSlotB.GetOpeningTime();
+                store.ClosingTime = timeSlotB.GetClosingTime();
             }
             else
             {
