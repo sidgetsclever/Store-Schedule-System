@@ -79,7 +79,7 @@ namespace StoresScheduleSystem
             }
             else
             {
-                throw new Exception("Error : Invalid Time Slot");
+                throw new Exception("Error : Invalid time slot");
             }
             StoresScheduleDAO storesScheduleDAO = new StoresScheduleDAO();
     
